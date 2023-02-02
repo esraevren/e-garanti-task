@@ -17,7 +17,7 @@ function App() {
   };
 
   return (
-    <div className="grid grid-cols-3 py-12 mx-auto gap-10 box-content max-w-[1200px] font-roboto max-[768px]:grid-cols-1 max-[992px]:grid-cols-2 ">
+    <div className="grid grid-cols-3 py-12 mx-auto gap-10 box-content max-w-[1200px] font-roboto max-[768px]:grid-cols-1  max-[768px]:gap-y-16 max-[992px]:grid-cols-2 ">
       {datas.map((data) => {
         return (
           <div

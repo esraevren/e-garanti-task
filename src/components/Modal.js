@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactComponent as Check } from "../assets/Icon.svg";
 import { ReactComponent as Modalcheck } from "../assets/Icon (2).svg";
 
 function Modal({ setOpenModal,  data }) {
@@ -7,7 +6,7 @@ function Modal({ setOpenModal,  data }) {
     <>
       <div className="fixed inset-0 z-10 overflow-y-auto font-roboto">
         <div
-          className="fixed inset-0 w-full h-full bg-black opacity-30"
+          className="fixed inset-0 w-full h-full bg-black opacity-50"
           onClick={() => setOpenModal(false)}
         ></div>
         <div className="flex items-center min-h-screen px-4 py-8">
@@ -25,30 +24,18 @@ function Modal({ setOpenModal,  data }) {
               üzerinden 7/24 iletişime geçebilirsiniz. Bu arada, satın alınımızı
               paylaşabilir ve mağaza kredisi kazanabilirsiniz.
             </p>
-            <div className="px-3 font-semibold mb-24">Sipariş Özeti</div>
-            <div>{data.title}</div>
-            {/* <div className="mt-3 sm:flex">
-                
-                    <div className="mt-2 text-center sm:ml-4 sm:text-left">
-                        <h4 className="text-lg font-medium text-gray-800">
-                            Delete account ?
-                        </h4>
-                        <p className="mt-2 text-[15px] leading-relaxed text-gray-500">
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua.
-                        </p>
-                        <div className="items-center gap-2 mt-3 sm:flex">
-                            <button
-                                className="w-full mt-2 p-2.5  text-white bg-blue-800 rounded-md outline-none ring-offset-2 ring-red-600 focus:ring-2"
-                                onClick={() => setOpenModal(false)}
-                            >
-                                Delete
-                            </button>
-                          
-                        </div>
-                    </div>
-                </div> */}
+            <div className="px-3 font-semibold ">Sipariş Özeti</div>
+            <div className="flex flex-row justify-between mx-10 mt-10">
+              <div className="text-gray-700 font-medium">{data.title}</div>
+              <div className="font-bold">₺{data.price},00</div>
+            </div>
+            <button
+                className="bg-[#0049E6] text-white  py-3 px-5 w-full rounded mt-9 mb-2"
+                onClick={() => setOpenModal(false)}
+              >
+                Uygulamaya Dön
+              </button>
+           
           </div>
         </div>
       </div>
