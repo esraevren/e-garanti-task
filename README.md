@@ -1,3 +1,10 @@
+#REACT.JS - TAİLWİND CSS 
+
+![2023-02-02](https://user-images.githubusercontent.com/88592010/216316449-38945b60-ac92-4d84-9da2-6bf0d35c96c9.png)
+
+
+![2023-02-02 (2)](https://user-images.githubusercontent.com/88592010/216316470-63088e28-f8a3-4913-a1dc-2f462507159b.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
