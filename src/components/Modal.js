@@ -14,11 +14,11 @@ function Modal({ setOpenModal,  data }) {
             <div className="flex justify-center items-center  select-none bg-[#D1FADF]    rounded-full  h-24 w-24 mx-auto mb-3 ">
               <Modalcheck />
             </div>
-            <div className="flex mx-auto font-semibold justify-center">
+            <div className="flex mx-auto font-semibold justify-center text-[#020246]">
               Bu siparişi verdiğiniz için çok teşekkürler.
             </div>
-            <p className="text-center mt-3 mb-8 px-3 text-sm ">
-              FIX123456 sipariş numaralı sigorta paketiniz ürününüzle başarıyla
+            <p className="text-center mt-3 mb-8 px-3 text-sm text-gray-800  ">
+              <span className="font-semibold">FIX123456</span> sipariş numaralı sigorta paketiniz ürününüzle başarıyla
               eşleştirildi. Aşağıda sipariş hakkında tüm detayları bulacaksınız.
               Kafanıza takılan herhangi bir sorunuz olursa canlı sohbet
               üzerinden 7/24 iletişime geçebilirsiniz. Bu arada, satın alınımızı
